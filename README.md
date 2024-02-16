@@ -1,5 +1,5 @@
 # Dictionary-projects
 
-https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/
+[Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
