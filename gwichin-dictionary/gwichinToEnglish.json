@@ -8,9 +8,6 @@
   "Ahtr'aii Shree Tsal, “also” Veegwaadhat": [
     "February"
   ],
-  "CHECK ALL HAWKS, EAGLES AND OSPRAY (82-)": [
-    "-"
-  ],
   "Ch'eekwaii": [
     "Eskimo"
   ],
@@ -200,8 +197,8 @@
     "length"
   ],
   "ah": [
-    "dipnet",
-    "spruce branch with needles"
+    "spruce branch with needles",
+    "dipnet"
   ],
   "ah chųh": [
     "spruce broth"
@@ -331,8 +328,8 @@
     "cafeteria, coffee shop"
   ],
   "ch'a'an": [
-    "den, hole",
-    "cave, den"
+    "cave, den",
+    "den, hole"
   ],
   "ch'aatł'įį": [
     "knit, she knitted"
@@ -353,8 +350,8 @@
     "writer"
   ],
   "ch'adhah": [
-    "hide (a skin)",
-    "skins"
+    "skins",
+    "hide (a skin)"
   ],
   "ch'adhah inghii": [
     "skin, tanned skin"
@@ -408,8 +405,8 @@
     "smokehouse (for drying)"
   ],
   "ch'agąįį": [
-    "claw",
     "quick-tempered person",
+    "claw",
     "a quick-tempered person"
   ],
   "ch'agąįį dahłų'": [
@@ -464,8 +461,8 @@
     "snowshoe, he is lacing snowshoes"
   ],
   "ch'akwaih łąįį": [
-    "babiche-wide",
-    "snowshoe, place where foot rests on snowshoe"
+    "snowshoe, place where foot rests on snowshoe",
+    "babiche-wide"
   ],
   "ch'akwaii chan ts'ik": [
     "Peregrine Falcon/Duck Hawk  “or” rough-legged hawk"
@@ -730,8 +727,8 @@
     "he is drinking (liquor)"
   ],
   "ch'iitsii": [
-    "iron (metal), steel",
-    "stove, cast-iron stove, steel, metal, iron"
+    "stove, cast-iron stove, steel, metal, iron",
+    "iron (metal), steel"
   ],
   "ch'iitsii ahtsii": [
     "blacksmith"
@@ -814,10 +811,13 @@
   "ch'iky'ąą": [
     "white arctic fox"
   ],
+  "ch'ikęę “or” ch'ichęę": [
+    "Swainson's hawk"
+  ],
   "ch'ilik": [
+    "hymn, song",
     "hymn",
-    "song",
-    "hymn, song"
+    "song"
   ],
   "ch'ineeluh zhuu": [
     "small fish (about 4 inches)"
@@ -968,8 +968,8 @@
     "charcoal"
   ],
   "ch'ąhkhok": [
-    "snore, he snored",
-    "snore, he snored (you)"
+    "snore, he snored (you)",
+    "snore, he snored"
   ],
   "ch'ąhtł'oo": [
     "blue, it's blue"
@@ -1095,8 +1095,8 @@
     "at a former time, once"
   ],
   "chyah": [
-    "mat",
-    "mattress “or” mat"
+    "mattress “or” mat",
+    "mat"
   ],
   "chyąą": [
     "Alaska black fish"
@@ -1106,8 +1106,8 @@
     "water"
   ],
   "chųų ch'ahshoo": [
-    "spatter, splatter, she spatters water",
-    "splash, she's splashing water"
+    "splash, she's splashing water",
+    "spatter, splatter, she spatters water"
   ],
   "chųų choo": [
     "sea",
@@ -1229,8 +1229,8 @@
     "hoarse, she is hoarse"
   ],
   "daatrat": [
-    "tremble/quiver, she is trembling",
-    "nervous, she's nervous"
+    "nervous, she's nervous",
+    "tremble/quiver, she is trembling"
   ],
   "daats'ee": [
     "gape, he is gaping"
@@ -1299,8 +1299,8 @@
     "shoe, boot"
   ],
   "dachan kyaa “or” dachan chyaa": [
-    "three-toed woodpecker",
     "hairy woodpecker and downy woodpecker",
+    "three-toed woodpecker",
     "downy woodpecker and hairy woodpecker"
   ],
   "dachan neeghin k'ik “or” dachan neezhin ch'ik": [
@@ -1384,6 +1384,9 @@
   "dats'an gii, “also” ch'izhuu tsoo": [
     "duckling"
   ],
+  "dats'an neelzhrąįį  (Atha)": [
+    "black scoter"
+  ],
   "dats'an tł'oo (literally duck's gall bladder)": [
     "green"
   ],
@@ -1415,8 +1418,8 @@
     "powerful shaman"
   ],
   "dazhoo": [
-    "furry, it's furry",
-    "2nd largest bull"
+    "2nd largest bull",
+    "furry, it's furry"
   ],
   "dazhoo-tsoo": [
     "young bull caribou"
@@ -1781,8 +1784,8 @@
     "ammunition, bullet"
   ],
   "dink'ee kwan": [
-    "gunpowder",
-    "powder, gunpowder"
+    "powder, gunpowder",
+    "gunpowder"
   ],
   "dink'ee tły'aa": [
     "sling, gun sling"
@@ -1848,8 +1851,8 @@
     "chalkytsik people"
   ],
   "drah": [
-    "cache, raised open cache",
-    "fish drying rack"
+    "fish drying rack",
+    "cache, raised open cache"
   ],
   "dreechaa": [
     "garter (for holding up stockings)"
@@ -1898,6 +1901,9 @@
   ],
   "dzeh": [
     "long-tailed jaeger"
+  ],
+  "dzehgak (M, B)": [
+    "brant"
   ],
   "dzih": [
     "chewing gum"
@@ -2351,8 +2357,8 @@
     "more than, more (used as an adverb “or” a noun)"
   ],
   "gwandaii": [
-    "life",
-    "live  (be alive), he lives, is alive"
+    "live  (be alive), he lives, is alive",
+    "life"
   ],
   "gwandak": [
     "story, tale, legend"
@@ -2595,6 +2601,9 @@
   "gwint'uu": [
     "saw, he sawed"
   ],
+  "gwintsal ach'įį": [
+    "(not fully cooked), it's  (meat)"
+  ],
   "gwintsal “or” gwįįtsal": [
     "little, a little bit"
   ],
@@ -2656,9 +2665,9 @@
     "reward, he gets his reward"
   ],
   "gwiteedrii vyaa “or” gwideedrii vyaa": [
-    "cobweb",
+    "web, spiderweb",
     "spider web",
-    "web, spiderweb"
+    "cobweb"
   ],
   "gwiteedrii “or” gwideedrii": [
     "spider"
@@ -2667,8 +2676,8 @@
     "feast, funeral potlatch"
   ],
   "gwitr'it": [
-    "job",
-    "work, task"
+    "work, task",
+    "job"
   ],
   "gwitr'it gwats'a' k'eegwaadhat": [
     "foreman"
@@ -2698,8 +2707,8 @@
     "jacket, outer garment"
   ],
   "gwizhit": [
-    "interior of something",
-    "inside, inside, the inside of it"
+    "inside, inside, the inside of it",
+    "interior of something"
   ],
   "gwizhit dik'eeraatryaa": [
     "bath house"
@@ -2723,8 +2732,8 @@
     "says it's no use"
   ],
   "gwęę'aa": [
-    "guide",
-    "leader"
+    "leader",
+    "guide"
   ],
   "gwįįłtin": [
     "pit"
@@ -2733,8 +2742,8 @@
     "snare"
   ],
   "gyųų": [
-    "snake, worm",
-    "worm, snake"
+    "worm, snake",
+    "snake, worm"
   ],
   "gęhjit “or” gęhnjit": [
     "rear, towards the rear"
@@ -2944,8 +2953,8 @@
     "long, something long (an object)"
   ],
   "jidii k'eejit": [
-    "young, something young, offspring",
-    "young, something young"
+    "young, something young",
+    "young, something young, offspring"
   ],
   "jidii shrit": [
     "which one"
@@ -2975,8 +2984,8 @@
     "now (today, at the present time)"
   ],
   "juk drin": [
-    "today",
-    "now, these days"
+    "now, these days",
+    "today"
   ],
   "juk gweedhaa": [
     "modern"
@@ -3211,9 +3220,9 @@
     "notch (in a log)"
   ],
   "khagwąąhtyą'": [
+    "slant, it is slanted",
     "slope",
-    "slope  \t   same  it is slanted",
-    "slant, it is slanted"
+    "slope  \t   same  it is slanted"
   ],
   "khah": [
     "pus",
@@ -3383,6 +3392,9 @@
   ],
   "khyąh dhidlii, “also” khyąh t'ah'in": [
     "trap, he's trapping"
+  ],
+  "khyąhtsoo “or” shyąhtsoo “also” khyąhtsõõ “or” shyąhtsõõ": [
+    "bank swallow, barn swallow and cliff swallow"
   ],
   "khąįįdąį'": [
     "young ewe"
@@ -3621,6 +3633,9 @@
   "naagąįį diik'oh nidiinlii": [
     "necklace (of beads)"
   ],
+  "naahdaa “or” nahdah          naahdaa": [
+    "great gray owl"
+  ],
   "naajat": [
     "scare, he's scared"
   ],
@@ -3667,8 +3682,8 @@
     "transparent, it is transparent, it is translucent"
   ],
   "nahgwan": [
-    "near, nearby",
-    "soon"
+    "soon",
+    "near, nearby"
   ],
   "nahgwan dąį'": [
     "recently"
@@ -3746,8 +3761,8 @@
     "world"
   ],
   "nan kat “or” nan kak": [
-    "on the ground, on the land",
-    "in the country, on the land"
+    "in the country, on the land",
+    "on the ground, on the land"
   ],
   "nan lųh": [
     "hard ground"
@@ -3802,8 +3817,8 @@
     "forward"
   ],
   "ndee zhii": [
-    "glasses, eyeglasses",
-    "eyeglasses"
+    "eyeglasses",
+    "glasses, eyeglasses"
   ],
   "ndeezhii": [
     "sunglasses"
@@ -3893,8 +3908,8 @@
     "year"
   ],
   "neegwąątsąįį": [
-    "bridge, “also”  fish trap",
-    "fish trap"
+    "fish trap",
+    "bridge, “also”  fish trap"
   ],
   "neegõõ": [
     "fox"
@@ -4008,15 +4023,15 @@
     "unravel, she's unraveling it"
   ],
   "neeyaanjaa": [
-    "pour, he poured it out",
-    "spill, she spilled it"
+    "spill, she spilled it",
+    "pour, he poured it out"
   ],
   "neeyahanzhok": [
     "mush, he is mushing dogs around"
   ],
   "neeyahkhwaii": [
-    "thaw, she's thawing it",
-    "melt, he's melting it, thawing it"
+    "melt, he's melting it, thawing it",
+    "thaw, she's thawing it"
   ],
   "neeyahtraa": [
     "soak, she's soaking it"
@@ -4122,8 +4137,8 @@
     "tomorrow"
   ],
   "nihkhan": [
-    "frequently",
-    "often"
+    "often",
+    "frequently"
   ],
   "nihkhan'oo": [
     "moose mating in the fall"
@@ -4248,8 +4263,8 @@
     "pelt"
   ],
   "nindhaa “or” nįįdhaa": [
-    "hot, he's hot, he feels hot",
-    "hot, it's hot (a pail of water)"
+    "hot, it's hot (a pail of water)",
+    "hot, he's hot, he feels hot"
   ],
   "nindhah “or” tseedhah": [
     "fur, pelt"
@@ -4306,8 +4321,8 @@
     "lesser scaup    (I,Ritt)"
   ],
   "nitsii": [
-    "tall, he is tall, it is tall",
-    "big, it's big"
+    "big, it's big",
+    "tall, he is tall, it is tall"
   ],
   "nitsyą'": [
     "few, they are few"
@@ -4363,8 +4378,8 @@
     "white-winged scoter"
   ],
   "njah": [
-    "stone axe",
-    "old-time wedge, stone wedge"
+    "old-time wedge, stone wedge",
+    "stone axe"
   ],
   "njuh ts'ąįį": [
     "side, on this side"
@@ -4451,9 +4466,6 @@
     "shy, she is shy",
     "bashful, he's bashful"
   ],
-  "page": [
-    "Others linguists say: tsyahtsoo (b)     comment: little bird with"
-  ],
   "saban": [
     "spoon"
   ],
@@ -4509,8 +4521,8 @@
     "summer"
   ],
   "shin gwidziitsal": [
-    "American tree sparrow and chipping sparrow",
-    "chipping sparrow and American tree sparrow"
+    "chipping sparrow and American tree sparrow",
+    "American tree sparrow and chipping sparrow"
   ],
   "shin yaahkhwąįį": [
     "old, he is getting old"
@@ -4849,8 +4861,8 @@
     "wave"
   ],
   "toh": [
-    "cane, crutch",
     "cane",
+    "cane, crutch",
     "walking stick, spear"
   ],
   "tr'a'aa": [
@@ -5001,12 +5013,12 @@
     "anoint, he is anointed"
   ],
   "tr'oh": [
-    "boil",
-    "boil (on the skin)"
+    "boil (on the skin)",
+    "boil"
   ],
   "tr'oo niindhat": [
-    "leftovers",
-    "left overs"
+    "left overs",
+    "leftovers"
   ],
   "tr'oohaanjik": [
     "bride"
@@ -5097,15 +5109,15 @@
     "tobacco"
   ],
   "ts'eet'it dhah": [
-    "pouch for tobacco",
-    "tabacco pouch"
+    "tabacco pouch",
+    "pouch for tobacco"
   ],
   "ts'eet'it ghan": [
     "cigarette butt"
   ],
   "ts'eet'it ki'": [
-    "pipe (for smoking)",
-    "smoking pipe"
+    "smoking pipe",
+    "pipe (for smoking)"
   ],
   "ts'eet'it tr'iiłk'ą'or tr'eełk'ą'": [
     "cigarette"
@@ -5144,8 +5156,8 @@
     "squirrel, flying squirrel"
   ],
   "ts'ik": [
-    "ailment, disease",
-    "sickness, illness “or” ailment"
+    "sickness, illness “or” ailment",
+    "ailment, disease"
   ],
   "ts'ik iizuu": [
     "veneral disease"
@@ -5157,7 +5169,8 @@
     "germ"
   ],
   "ts'ilaii “or” ts'ilaih": [
-    "lesser golden plover and black-bellied plover"
+    "lesser golden plover and black-bellied plover",
+    "black-bellied plover and lesser golden plover"
   ],
   "ts'in zhroo": [
     "drizzle"
@@ -5250,8 +5263,8 @@
     "stored in cellar, she stored away food in the cellar, “or” underground cache"
   ],
   "tsii k'it": [
-    "cache, ground storage place",
-    "underground cache where food was stored at various places during"
+    "underground cache where food was stored at various places during",
+    "cache, ground storage place"
   ],
   "tsiivii": [
     "rainbow trout"
@@ -5287,11 +5300,11 @@
     "blowing snow"
   ],
   "tsuh": [
-    "feather",
     "rust",
-    "cushion,pillow",
     "mold",
-    "pillow"
+    "feather",
+    "pillow",
+    "cushion,pillow"
   ],
   "tsuh ilii": [
     "mold, it's getting moldy"
@@ -5330,8 +5343,8 @@
     "bone"
   ],
   "tth'an k'it": [
-    "grave, burial place",
-    "cemetery, grave"
+    "cemetery, grave",
+    "grave, burial place"
   ],
   "tth'ehthąį'": [
     "inner back meat"
@@ -5435,8 +5448,8 @@
   ],
   "tł'eedik": [
     "river bank",
-    "riverbank",
-    "wharf"
+    "wharf",
+    "riverbank"
   ],
   "tł'ehthaa": [
     "skirt"
@@ -5490,10 +5503,10 @@
     "small unidentified water bloodsucker"
   ],
   "tły'ah": [
-    "flint",
-    "line, rope",
+    "string “or” rope",
     "whetstone, sharpener",
-    "string “or” rope"
+    "line, rope",
+    "flint"
   ],
   "tły'ah gwach'aa eenjit hąąht'aii": [
     "clothesline"
@@ -5527,9 +5540,6 @@
   ],
   "tł’oo-hanshyah": [
     "muskeg grass"
-  ],
-  "upland plover": [
-    "page"
   ],
   "va'at, “also” vitr'iinjaa": [
     "wife, his wife"
@@ -5565,8 +5575,8 @@
     "eraser"
   ],
   "vaa goohiidri'": [
-    "square, carpenter's square",
-    "ruler (for measuring)"
+    "ruler (for measuring)",
+    "square, carpenter's square"
   ],
   "vaa gwach'aa kak geełeegwirihilii": [
     "brush, clothes brush"
@@ -5590,8 +5600,8 @@
     "crowbar"
   ],
   "vaa neech'arąąhkyaa “or” vaa neech'arąąhchyaa": [
-    "fire extinguisher",
-    "extinguisher, a fire extinguisher"
+    "extinguisher, a fire extinguisher",
+    "fire extinguisher"
   ],
   "vaa neech'arąąjii": [
     "face soap"
@@ -5627,16 +5637,16 @@
     "tendon"
   ],
   "vachaa": [
-    "brother, his younger brother",
+    "throat outside",
     "vocal cords, his vocal cords",
-    "throat outside"
+    "brother, his younger brother"
   ],
   "vachan": [
     "stalk/stem/trunk, its stalk/stem/trunk"
   ],
   "vadaa": [
-    "menstrual blood",
-    "blood"
+    "blood",
+    "menstrual blood"
   ],
   "vadaa tee sugar": [
     "sugar diabetic"
@@ -5645,8 +5655,8 @@
     "waist, his waist"
   ],
   "vadhah": [
-    "skin",
-    "rind, peel, its rind"
+    "rind, peel, its rind",
+    "skin"
   ],
   "vadhahghwaa": [
     "thighbone (femur), his thighbone"
@@ -5999,9 +6009,12 @@
     "his, his own"
   ],
   "vats'at": [
-    "womb, her womb",
+    "uterus, her uterus",
     "womb",
-    "uterus, her uterus"
+    "womb, her womb"
+  ],
+  "vatsaii vee “or” vatthąįį vee “or” vatsąįį vęę “or” vatthąįį vęę": [
+    "snowy owl"
   ],
   "vatsąįį divee (B)": [
     "falcon"
@@ -6316,8 +6329,8 @@
     "his fine hair"
   ],
   "vikii gąįį": [
-    "white hair",
-    "gray hair, his gray hair"
+    "gray hair, his gray hair",
+    "white hair"
   ],
   "vikii t'ik": [
     "top of his head"
@@ -6535,8 +6548,8 @@
     "daughter, HER daughter (woman's only)"
   ],
   "viyeh'at": [
-    "daughter-in-law, HIS daughter-in-law (man's only)",
-    "HER daughter-in-law (woman's only)"
+    "HER daughter-in-law (woman's only)",
+    "daughter-in-law, HIS daughter-in-law (man's only)"
   ],
   "viyehghan": [
     "parent, his parents"
@@ -6558,8 +6571,8 @@
     "body, his body"
   ],
   "vizhit": [
-    "inward parts, innards, his inward parts, his innards",
-    "in it (inside, into a container “or” similar object)"
+    "in it (inside, into a container “or” similar object)",
+    "inward parts, innards, his inward parts, his innards"
   ],
   "vizhit dah": [
     "hemorrhage, he's hemorrhaging"
@@ -6742,8 +6755,8 @@
     "plane, he's planing it"
   ],
   "yah'oo": [
-    "to sneeze",
-    "sneeze, she's sneezing"
+    "sneeze, she's sneezing",
+    "to sneeze"
   ],
   "yahahdak": [
     "shoot (with bow and arrow), he's shooting it"
@@ -7067,8 +7080,8 @@
     "surgery, she performed surgery on her"
   ],
   "yit'ii": [
-    "surgery, she is performing surgery on her",
-    "saw, he's sawing it"
+    "saw, he's sawing it",
+    "surgery, she is performing surgery on her"
   ],
   "yit'injyah'ee": [
     "grudge, he has a grudge against him"
@@ -7529,8 +7542,8 @@
     "fisherman"
   ],
   "łuk ky'ų'": [
-    "roe, fish eggs",
-    "fish eggs, roe"
+    "fish eggs, roe",
+    "roe, fish eggs"
   ],
   "łuk nihtr'eet'uu": [
     "split dry fish"
@@ -7581,8 +7594,8 @@
     "ice, rotten ice"
   ],
   "łuu k'ik": [
-    "large wooden ladle used to get snow and ice out of muskrat house",
-    "spoon, old-time wooden spoon"
+    "spoon, old-time wooden spoon",
+    "large wooden ladle used to get snow and ice out of muskrat house"
   ],
   "łuu k'ik tąį'": [
     "ladle"

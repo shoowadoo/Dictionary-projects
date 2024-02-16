@@ -8,7 +8,7 @@ with open('dictionary.txt', 'r', encoding='utf-8') as file:
 lines = text.split('\n')
 
 # Define an empty dictionary to store the entries
-englishToGwichin = {}
+englishToGwichin = {}  
 gwichinToEnglish = {}
 
 # Iterate over each line of the text
@@ -18,11 +18,11 @@ for line in lines:
     
     # Skip empty lines and lines starting with " " or upper case
     # if line == '' or line.startswith(' ') or line[0].isupper():
-    if line == '' or line.startswith(' ') or 'accidental' in line or 'rare' in line or 'hypothetical' in line:
+    if line == '' or line.startswith(':') or 'accidental' in line or 'rare' in line or 'hypothetical' in line:
         continue
     
     # Split the line into Gwichin and English parts using " " as the separator
-    parts = line.split(' ')
+    parts = line.split(':')
         
     if len(parts) > 1 and parts[1].strip() != "":
         # Extract the Gwichin word and English translation

@@ -17,17 +17,17 @@ for line in lines:
     line = line.strip()
     count += 1
     
-    if line == '' or line.startswith(' '):
+    if line == '' or line.startswith(':'):
         count3 +=1
         continue
     
-    if line[0].isupper() and ' ' not in line and "'" not in line and "Ruff" not in line and "Savannah" not in line:
+    if line[0].isupper() and ':' not in line and "'" not in line and "Ruff" not in line and "Savannah" not in line:
         
         category = line
         dictionary[category] = {}
         continue
     
-    parts = line.split(' ')
+    parts = line.split(':')
     
     if len(parts) < 2:
         count2 += 1
