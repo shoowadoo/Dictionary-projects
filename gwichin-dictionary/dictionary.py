@@ -49,6 +49,13 @@ for line in lines:
         else:
             englishToGwichin[english_word] = [gwichin_word]
 
+# remove duplicates     
+for key in gwichinToEnglish:
+    gwichinToEnglish[key] = list(set(gwichinToEnglish[key]))
+
+for key in englishToGwichin:
+    englishToGwichin[key] = list(set(englishToGwichin[key]))
+
 json_data = json.dumps(dict(sorted(gwichinToEnglish.items())), indent=2, ensure_ascii=False)
 
 # Save the JSON to a file
