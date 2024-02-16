@@ -34,7 +34,7 @@ for line in lines:
         
     
     if len(parts) > 1:
-        # Extract the English word and Esperanto translation
+        # Extract the Gwich'in word and English translation
         gwichin_word = parts[0].strip()
         english_translation = parts[1].strip()
     
