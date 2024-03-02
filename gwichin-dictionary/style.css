@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #009900;
+    background-color: rgb(35,97,146);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -67,7 +67,7 @@ body {
         font-size: 14px; /* Further reduce font size for very small devices */
     }
     .input {
-        width: 100%; /* Make input fields take full width on smaller screens */
+        width: 50%; /* Make input fields take full width on smaller screens */
         height: 35px; /* Adjust the height if needed for better touch interaction */
     }
 }
