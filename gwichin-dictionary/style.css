@@ -66,4 +66,8 @@ body {
     .heading, .input {
         font-size: 14px; /* Further reduce font size for very small devices */
     }
+    .input {
+        width: 100%; /* Make input fields take full width on smaller screens */
+        height: 35px; /* Adjust the height if needed for better touch interaction */
+    }
 }
