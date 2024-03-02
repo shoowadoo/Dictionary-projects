@@ -44,30 +44,30 @@ body {
 
 @media only screen and (max-width: 600px) {
     .container {
-        width: 80%; /* Adjust the width on smaller screens */
-        padding: 20px; /* Adjust padding for smaller screens */
-        font-size: 16px; /* Adjust font size for better readability */
+        width: 80%; 
+        padding: 20px; 
+        font-size: 16px; 
     }
     .heading {
-        font-size: 24px; /* Decrease font size for the heading */
+        font-size: 24px; 
     }
     .input {
         width: 50%; 
-        font-size: 14px; /* Adjust font size for inputs */
-        height: 40px; /* Adjust the height of input fields */
+        font-size: 14px; 
+        height: 40px; 
     }
 }
 
 @media only screen and (max-width: 400px) {
     .container {
-        width: 100%; /* Use full width for very small devices */
-        padding: 15px; /* Reduce padding */
+        width: 100%; 
+        padding: 15px; 
     }
     .input {
-        font-size: 14px; /* Further reduce font size for very small devices */
+        font-size: 14px; 
     }
     .input {
         width: 60%; 
-        height: 35px; /* Adjust the height if needed for better touch interaction */
+        height: 35px; 
     }
 }
