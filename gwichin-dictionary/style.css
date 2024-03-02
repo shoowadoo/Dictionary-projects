@@ -63,7 +63,7 @@ body {
         width: 100%; /* Use full width for very small devices */
         padding: 15px; /* Reduce padding */
     }
-    .heading, .input {
+    .input {
         font-size: 14px; /* Further reduce font size for very small devices */
     }
     .input {
