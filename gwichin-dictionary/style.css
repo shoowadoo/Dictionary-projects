@@ -41,3 +41,29 @@ body {
 .meaning-container {
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%; /* Adjust the width on smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+    .heading {
+        font-size: 24px; /* Decrease font size for the heading */
+    }
+    .input {
+        width: 90%; /* Make input fields wider on smaller screens */
+        font-size: 14px; /* Adjust font size for inputs */
+        height: 40px; /* Adjust the height of input fields */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%; /* Use full width for very small devices */
+        padding: 15px; /* Reduce padding */
+    }
+    .heading, .input {
+        font-size: 14px; /* Further reduce font size for very small devices */
+    }
+}
