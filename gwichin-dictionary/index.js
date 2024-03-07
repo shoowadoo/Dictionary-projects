@@ -26,11 +26,11 @@ async function fetchAPI(word) {
         // makes sure that the input word is lowercase and trimmed of any spaces
         word_lower = word.toLowerCase().trim();
 
-        let pattern = new RegExp("\\b" + word_lower + "\\b", "u");
+        //let pattern = new RegExp("\\b" + word_lower + "\\b", "u");
 
-        //let startBoundary = "(?:^|\\s)"; // Matches start of string or any whitespace
-        //let endBoundary = "(?:$|\\s)"; // Matches end of string or any whitespace
-        //let pattern = new RegExp(startBoundary + word_lower + endBoundary, "u");
+        let startBoundary = "(?:^|\\s)"; // Matches start of string or any whitespace
+        let endBoundary = "(?:$|\\s)"; // Matches end of string or any whitespace
+        let pattern = new RegExp(startBoundary + word_lower + endBoundary, "u");
 
         // let pattern = new RegExp(`(?<=\\P{L}|^)${word_lower}(?=\\P{L}|$)`, "gu");
 

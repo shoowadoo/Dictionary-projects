@@ -64,6 +64,7 @@ replace_mapping = {
     'į': 'į',
     'ų': 'ų',
     '\'': '’',
+    'ł': 'ł',
 }
 
 # Function to replace characters based on the mapping
