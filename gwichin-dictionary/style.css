@@ -41,3 +41,33 @@ body {
 .meaning-container {
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%; 
+        padding: 20px; 
+        font-size: 16px; 
+    }
+    .heading {
+        font-size: 24px; 
+    }
+    .input {
+        width: 50%; 
+        font-size: 14px; 
+        height: 40px; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%; 
+        padding: 15px; 
+    }
+    .input {
+        font-size: 14px; 
+    }
+    .input {
+        width: 60%; 
+        height: 35px; 
+    }
+}
