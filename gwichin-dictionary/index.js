@@ -20,13 +20,20 @@ async function fetchAPI(word) {
         const result = await fetch(url).then((response) => response.json());
 
         // for gwich'in to english
-        const url2 = 'gwichinToEnglish.json';
+        const url2 = 'gwichinToEnglish_newChar.json';
         const result2 = await fetch(url2).then((response) => response.json());
         
         // makes sure that the input word is lowercase and trimmed of any spaces
         word_lower = word.toLowerCase().trim();
 
-        let pattern = new RegExp("\\b" + word_lower + "\\b");
+        let pattern = new RegExp("\\b" + word_lower + "\\b", "u");
+
+        //let startBoundary = "(?:^|\\s)"; // Matches start of string or any whitespace
+        //let endBoundary = "(?:$|\\s)"; // Matches end of string or any whitespace
+        //let pattern = new RegExp(startBoundary + word_lower + endBoundary, "u");
+
+        // let pattern = new RegExp(`(?<=\\P{L}|^)${word_lower}(?=\\P{L}|$)`, "gu");
+
 
         let my_array = [];
         for (key in result) {
