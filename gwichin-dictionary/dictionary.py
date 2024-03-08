@@ -26,7 +26,7 @@ for line in lines:
         
     if len(parts) > 1 and parts[1].strip() != "":
         # Extract the Gwichin word and English translation
-        gwichin_word = parts[0].strip()
+        gwichin_word = parts[0].strip().replace('õ','ǫ')
         english_word = parts[1].strip()
     
     #initial_letter = gwichin_word[0].upper()
@@ -91,7 +91,7 @@ with open('gwichinToEnglish_newChar.json', 'w', encoding='utf-8') as file:
 with open('gwichinToEnglish.json', 'w', encoding='utf-8') as file:
     file.write(json_data)
     
-#json_data = json.dumps(dict(sorted(englishToGwichin.items())), indent=2, ensure_ascii=False)
+json_data = json.dumps(dict(sorted(englishToGwichin.items())), indent=2, ensure_ascii=False)
 
 # Save the JSON to a file
 with open('englishToGwichin.json', 'w', encoding='utf-8') as file:

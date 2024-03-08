@@ -50,7 +50,7 @@ async function fetchAPI(word) {
 
         //------------------------------------------Gwich'in to English------------------------------------------
         // for gwich'in to english
-        const url2 = 'gwichinToEnglish_newChar.json';
+        /* const url2 = 'gwichinToEnglish_newChar.json';
         const result2 = await fetch(url2).then((response) => response.json());
 
         let my_array2 = [];
@@ -68,8 +68,10 @@ async function fetchAPI(word) {
         
         for (entry of my_array2) {
             new_array2.push("\n" + `${entry}: ${result2[entry].join(', ')}`+ "\n");
-        }
+        } */
         // console.log(new_array2);
+
+
 
         // without new chars 
         const url3 = 'gwichinToEnglish.json';
@@ -85,15 +87,11 @@ async function fetchAPI(word) {
                 my_array3.push(key);
             }   
         }
-
-        // console.log(my_array2);
         
         for (entry of my_array3) {
             new_array3.push("\n" + `${entry}: ${result3[entry].join(', ')}`+ "\n");
         }
-        // console.log(new_array2);
         
-
         //--------------------------------__DISPLAY__--------------------------------
 
         if (new_array.length > 0) {
@@ -103,14 +101,14 @@ async function fetchAPI(word) {
             titleEl.innerText = word;
             meaningEl.innerText = new_array.join('');
         } 
-        else if (new_array2.length > 0)
+        /* else if (new_array2.length > 0)
         {
             infoTextEl.style.display = "none";
             meaningContainerEl.style.display = "block";
             titleEl.innerText = word;
             meaningEl.innerText = new_array2.join('');
         
-        } 
+        }  */
         else if (new_array3.length > 0)
         {
             infoTextEl.style.display = "none";
@@ -132,7 +130,9 @@ async function fetchAPI(word) {
 // Event listener for input
 inputEl.addEventListener("keyup", (e) => {
     if (e.target.value && e.key === "Enter") {
-        fetchAPI(e.target.value);
+        let normalizedValue = e.target.value.replace('’', '\'').normalize('NFC');
+        fetchAPI(normalizedValue);
+        //fetchAPI(e.target.value);
         e.target.value = "";
     }
 });
