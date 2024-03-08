@@ -58,6 +58,7 @@ for key in englishToGwichin:
 
 #print(gwichinToEnglish)
 
+# convert chars so it works with installed gwich’in keyboard 
 replace_mapping = {
     'õ': 'ǫ',
     'ą': 'ą',
@@ -79,7 +80,7 @@ for key, value in gwichinToEnglish.items():
     new_key = replace_characters(key, replace_mapping)
     gwi_en_new_chars[new_key] = value
     
-#json_data = json.dumps(dict(sorted(gwichinToEnglish.items())), indent=2, ensure_ascii=False)
+json_data = json.dumps(dict(sorted(gwichinToEnglish.items())), indent=2, ensure_ascii=False)
 
 json_data_new = json.dumps(dict(sorted(gwi_en_new_chars.items())), indent=2, ensure_ascii=False)
 
@@ -87,11 +88,11 @@ with open('gwichinToEnglish_newChar.json', 'w', encoding='utf-8') as file:
     file.write(json_data_new)
 
 # Save the JSON to a file
-#with open('gwichinToEnglish.json', 'w', encoding='utf-8') as file:
- #   file.write(json_data)
+with open('gwichinToEnglish.json', 'w', encoding='utf-8') as file:
+    file.write(json_data)
     
 #json_data = json.dumps(dict(sorted(englishToGwichin.items())), indent=2, ensure_ascii=False)
 
 # Save the JSON to a file
-#with open('englishToGwichin.json', 'w', encoding='utf-8') as file:
- #   file.write(json_data)
+with open('englishToGwichin.json', 'w', encoding='utf-8') as file:
+    file.write(json_data)
