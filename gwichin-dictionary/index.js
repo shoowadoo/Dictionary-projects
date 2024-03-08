@@ -1,6 +1,8 @@
 // uppercase words are ommitted currently from dictionary
 // also this needs to be fixed when searching
 
+// since url2 and my_array2 etc are no longer needed, you can update variable names so there isn't a gap in numbering
+
 const inputEl = document.getElementById("input");
 const infoTextEl = document.getElementById("info-text");
 const meaningContainerEl = document.getElementById("meaning-container");
@@ -49,7 +51,7 @@ async function fetchAPI(word) {
         }
 
         //------------------------------------------Gwich'in to English------------------------------------------
-        // for gwich'in to english
+        // for gwich'in with new chars to english
         /* const url2 = 'gwichinToEnglish_newChar.json';
         const result2 = await fetch(url2).then((response) => response.json());
 

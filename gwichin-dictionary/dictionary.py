@@ -59,6 +59,7 @@ for key in englishToGwichin:
 #print(gwichinToEnglish)
 
 # convert chars so it works with installed gwich’in keyboard 
+# although found a way that this json file with new chars is no longer necessary 
 replace_mapping = {
     'õ': 'ǫ',
     'ą': 'ą',
