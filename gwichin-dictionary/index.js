@@ -11,6 +11,10 @@ const meaningEl = document.getElementById("translation");
 
 // console.log("hello");
 
+function removeDiacritics(inputText) {
+    return inputText.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 async function fetchAPI(word) {
     try {
         infoTextEl.style.display = "block";
@@ -34,7 +38,9 @@ async function fetchAPI(word) {
 
         let my_array = [];
         for (key in result) {
-            key_lower = key.toLowerCase();
+
+            key_normalized = removeDiacritics(key)
+            key_lower = key_normalized.toLowerCase();
             // right now this looks for character matches in string, but may need to refine to look for just word using regex;
             // but currently there is also cross-check to make sure that the word is in the dictionary by itself and not just a substring of the entry
             //if (key_lower.includes(word_lower)) 
@@ -82,7 +88,11 @@ async function fetchAPI(word) {
         let my_array3 = [];
         let new_array3 = [];
         for (key in result3) {
-            key_lower = key.toLowerCase();
+
+            key_normalized = removeDiacritics(key)
+            key_lower = key_normalized.toLowerCase();
+
+            // key_lower = key.toLowerCase();
             //if (key_lower.includes(word_lower)) 
             if (pattern.test(key_lower))
             {
@@ -129,11 +139,13 @@ async function fetchAPI(word) {
         infoTextEl.innerText = "An error happened. Try again later.";
     }
 }
+
 // Event listener for input
 inputEl.addEventListener("keyup", (e) => {
     if (e.target.value && e.key === "Enter") {
-        let normalizedValue = e.target.value.replace('’', '\'').normalize('NFC');
-        fetchAPI(normalizedValue);
+        let normalizedValue = e.target.value.replace(/’/g, '\'').normalize('NFC');
+        let searchValue = removeDiacritics(normalizedValue);
+        fetchAPI(searchValue);
         //fetchAPI(e.target.value);
         e.target.value = "";
     }
