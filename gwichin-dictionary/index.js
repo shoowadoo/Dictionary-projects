@@ -28,12 +28,9 @@ async function fetchAPI(word) {
 
         //let pattern = new RegExp("\\b" + word_lower + "\\b", "u");
 
-        let startBoundary = "(?:^|\\s)"; // Matches start of string or any whitespace
-        let endBoundary = "(?:$|\\s)"; // Matches end of string or any whitespace
+        let startBoundary = "(?:^|\\s|-)"; // Matches start of string, any whitespace, or a hyphen
+        let endBoundary = "(?:$|\\s|-|,)"; // Matches end of string, any whitespace, or a hyphen
         let pattern = new RegExp(startBoundary + word_lower + endBoundary, "u");
-
-        // let pattern = new RegExp(`(?<=\\P{L}|^)${word_lower}(?=\\P{L}|$)`, "gu");
-
 
         let my_array = [];
         for (key in result) {
