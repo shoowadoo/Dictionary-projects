@@ -106,12 +106,20 @@ async function fetchAPI(word) {
         
         //--------------------------------__DISPLAY__--------------------------------
 
+        let concat_array = [];
         if (new_array.length > 0) {
             
             infoTextEl.style.display = "none";
             meaningContainerEl.style.display = "block";
             titleEl.innerText = word;
             meaningEl.innerText = new_array.join('');
+            if (new_array3.length > 0) {
+                concat_array = new_array.concat(new_array3)
+                meaningEl.innerText = concat_array.join('');
+            }
+            else {
+                meaningEl.innerText = new_array.join('');
+            }
         } 
         /* else if (new_array2.length > 0)
         {
