@@ -5,7 +5,7 @@ const titleEl = document.getElementById("word");
 const meaningEl = document.getElementById("translation");
 const language = document.getElementById("language-select")
 
-console.log("hello");
+//console.log("hello");
 
 function removeDiacritics(inputText) {
     return inputText.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -39,11 +39,9 @@ async function performSearch(word) {
         let dictionaryURL;
 
         if(language.value === 'language1') {
-            console.log('language1')
             dictionaryURL = 'englishToGwichin.json';
         }
         else if(language.value === 'language2') {
-            console.log('language2')
             dictionaryURL = 'gwichinToEnglish.json';
         }
 
@@ -52,7 +50,7 @@ async function performSearch(word) {
         let my_array = [];
         for (key in result) {
 
-            key_normalized = removeDiacritics(key)
+            key_normalized = removeDiacritics(key);
             key_lower = key_normalized.toLowerCase();
             if (pattern.test(key_lower))
             {
@@ -87,15 +85,9 @@ async function performSearch(word) {
     }
 }
 
-console.log('Script is running');
+//console.log('Script is running');
 
 document.getElementById('language-select').addEventListener('change', function() {
-    console.log('Selected value:', language.value); // Log every change for debugging
-    if (language.value === 'language1') {
-        console.log('Language 1 selected');
-    } else if (language.value === 'language2') {
-        console.log('Language 2 selected');
-    }
     searchText();
 });
 
