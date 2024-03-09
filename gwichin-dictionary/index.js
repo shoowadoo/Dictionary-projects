@@ -100,6 +100,7 @@ inputEl.addEventListener("keyup", (e) => {
         performSearch(searchValue);
         console.log("fetched");
         e.target.value = "";
+        e.target.blur()
     }
 
 });
