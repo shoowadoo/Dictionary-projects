@@ -18,4 +18,4 @@ Although not necessary, the Gwich’in dictionary works well with the [Gwich’i
 
 Materials for learning and exploring more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in Fairbanks.
 
-Updates: The user can now choose to search for either an English or Gwich'in word. Because there are several different orthographic styles in different Gwich'in texts, with the same word marked for tone and/or nasalization in one text and not marked in another, the user can search for a Gwich'in word with or without special marks or diacritics.
+Updates: The user can now choose to search for either an English or Gwich'in word. Because there are several different orthographic styles, with the same word marked for tone and/or nasalization or not in different texts, the user can search for a Gwich'in word with or without special marks or diacritics.
