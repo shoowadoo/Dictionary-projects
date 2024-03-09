@@ -26,6 +26,7 @@ body {
 
 .heading {
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .input {
@@ -36,6 +37,15 @@ body {
     font-size: 16px;
     padding: 0 42px;
     border-radius: 5px;
+}
+
+.language-select {
+    margin-bottom: 10px; 
+/* Adds space below the dropdown */
+}
+
+.input {
+    margin-top: 10px; /* Adds space above the input field */
 }
 
 .meaning-container {
