@@ -14,8 +14,10 @@ function removeDiacritics(inputText) {
 function searchText() {
     if (language.value === 'language1') {
         inputEl.placeholder = "Search an English word"; // Placeholder for the first language
+        infoTextEl.innerText = "Type an English word and press Enter";
     } else if (language.value === 'language2') {
         inputEl.placeholder = "Search a Gwich'in word"; // Placeholder for the second language
+        infoTextEl.innerText = "Type a Gwich'in word and press Enter";
     }
 }
 
@@ -104,9 +106,9 @@ inputEl.addEventListener("keyup", (e) => {
         let normalizedValue = e.target.value.replace(/’/g, '\'').normalize('NFC');
         let searchValue = removeDiacritics(normalizedValue);
         performSearch(searchValue);
-        //fetchAPI(e.target.value);
         console.log("fetched");
         e.target.value = "";
     }
 
 });
+
