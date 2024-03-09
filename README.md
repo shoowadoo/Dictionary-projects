@@ -10,4 +10,4 @@ The user can now choose to search either for an English or Gwich'in word. Becaus
 
 Gwich'in is spoken in both Alaska and Canada. This dictionary focuses on Alaskan or Western Gwich'in, also known as [Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
 
-Materials for learning more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) or the Alaska Native Language Archive in my hometown of Fairbanks.
+Materials for learning more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in my hometown of Fairbanks.
