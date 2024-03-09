@@ -1,5 +1,7 @@
 # My Dictionary Projects
 
+Current projects include dictionaries for Esperant and Gwich'in. 
+
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
 Esperanto is fun! :) 
