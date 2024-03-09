@@ -2,7 +2,7 @@
 
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
-Esperant is fun! :) 
+Esperanto is fun! :) 
 
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
 
