@@ -8,7 +8,7 @@ Esperanto is fun! :)
 
 Gwich'in is spoken in both Alaska and Canada. This dictionary focuses on Alaskan or Western Gwich'in, also known as [Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
 
-The Gwich’in dictionary works well with the [Gwich’in keyboard](https://languagegeek.com/lgwp/keyboards/) which can be downloaded and installed on your own machine. Follow instructions for installation and use at the site. 
+The Gwich’in dictionary works well with the [Gwich’in keyboard](https://languagegeek.com/lgwp/keyboards/) which can be downloaded and installed on your own machine. Follow instructions for installation and use at that site. 
 
 Materials for learning more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in my hometown of Fairbanks.
 
