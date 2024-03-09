@@ -15,9 +15,7 @@ merged_data = {**data1, **data2}
 # Sort the dictionary by key
 sorted_data = OrderedDict(sorted(merged_data.items()))
 
-# Optionally, convert back to a regular dictionary in Python 3.7+ where dictionaries are ordered
 sorted_data = dict(sorted_data)
-
 
 with open('gwi.json', 'w', encoding='utf-8') as file:
     json.dump(sorted_data, file, ensure_ascii=False, indent=4)
