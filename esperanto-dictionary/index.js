@@ -3,6 +3,8 @@ const infoTextEl = document.getElementById("info-text");
 const meaningContainerEl = document.getElementById("meaning-container");
 const titleEl = document.getElementById("word");
 const meaningEl = document.getElementById("translation");
+const language = document.getElementById("language-select")
+
 
 async function fetchAPI(word) {
     try {
@@ -13,21 +15,48 @@ async function fetchAPI(word) {
         const url = 'englishToEsperanto.json';
         const result = await fetch(url).then((response) => response.json());
 
-        const url2 = 'esperantoToEnglish.json';
-        const result2 = await fetch(url2).then((response) => response.json());
+        //const url2 = 'esperantoToEnglish.json';
+        //const result2 = await fetch(url2).then((response) => response.json());
 
-        word = word.toLowerCase().trim();
+        word_lower = word.toLowerCase().trim();
+        //let pattern = new RegExp(word_lower, "u");
+        let pattern = new RegExp("\\b" + word_lower + "\\b", "u")
+        //let dictionaryURL;
 
-        if (word in result) {
+        /* if(language.value === 'language1') {
+            dictionaryURL = 'englishToGwichin.json';
+        }
+        else if(language.value === 'language2') {
+            dictionaryURL = 'gwichinToEnglish.json';
+        } */
+
+        let my_array = [];
+        for (key in result) {
+
+            //key_normalized = removeDiacritics(key);
+            key_lower = key.toLowerCase();
+            if (pattern.test(key_lower))
+            {
+                my_array.push(key);
+            }   
+        }
+        console.log(my_array)
+        let new_array = [];
+        //console.log(result)
+        for (entry of my_array) {
+            console.log(result[entry])
+            new_array.push("\n" + `${entry}: ${result[entry]}`+ "\n");
+        }
+        
+        //--------------------------------__DISPLAY__--------------------------------
+
+        if (new_array.length > 0) {
+            
             infoTextEl.style.display = "none";
             meaningContainerEl.style.display = "block";
             titleEl.innerText = word;
-            meaningEl.innerText = result[word];
-        } else if (word in result2) {
-            infoTextEl.style.display = "none";
-            meaningContainerEl.style.display = "block";
-            titleEl.innerText = word;
-            meaningEl.innerText = result2[word];
+            meaningEl.innerText = new_array.join('');
+            
         } else {
             meaningContainerEl.style.display = "block";
             infoTextEl.style.display = "none";
