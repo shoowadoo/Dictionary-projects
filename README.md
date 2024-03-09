@@ -1,4 +1,4 @@
-# Dictionary-projects
+# Dictionary projects
 
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
