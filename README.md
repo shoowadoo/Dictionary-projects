@@ -2,10 +2,12 @@
 
 Project currently includes dictionaries for Esperanto and Gwich'in. A dictionary can be accessed online by clicking its link below.
 
+# Esperanto
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
 Esperanto is fun! :) 
 
+# Gwich'in
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
 
 Gwich'in is spoken in both Alaska and Canada. This dictionary focuses on Alaskan or Western Gwich'in, also known as [Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
