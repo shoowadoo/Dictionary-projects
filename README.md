@@ -2,6 +2,8 @@
 
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
+Esperant is fun! :) 
+
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
 
 Gwich'in is spoken in both Alaska and Canada. This dictionary focuses on Alaskan or Western Gwich'in, also known as [Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
