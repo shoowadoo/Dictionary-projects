@@ -1,6 +1,6 @@
 # My Dictionary Projects
 
-Project currently includes dictionaries for Esperanto and Gwich'in. A dictionary can be accessed online by clicking its link below.
+Project currently includes dictionaries for Esperanto and Gwich'in. A dictionary can be accessed online by clicking its link below. For fun, check out the word 'wear' in each language. 
 
 # Esperanto
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
