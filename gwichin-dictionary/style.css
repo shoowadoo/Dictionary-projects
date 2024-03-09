@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(35,97,146);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -41,11 +41,10 @@ body {
 
 .language-select {
     margin-bottom: 10px; 
-/* Adds space below the dropdown */
 }
 
 .input {
-    margin-top: 10px; /* Adds space above the input field */
+    margin-top: 10px;
 }
 
 .meaning-container {
