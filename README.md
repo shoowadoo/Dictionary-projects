@@ -2,7 +2,7 @@
 
 Project currently includes dictionaries for Esperanto and Gwich'in. A dictionary can be accessed online by clicking its link below. 
 
-For fun, check out a few words in each language, e.g., 'wear', 'snow', 'reindeer/caribou'.
+For fun, check out a few words in each language, e.g., 'wear', 'snow', 'reindeer', 'caribou'.
 
 # Esperanto
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
