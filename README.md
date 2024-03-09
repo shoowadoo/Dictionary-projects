@@ -1,6 +1,6 @@
 # My Dictionary Projects
 
-Current projects include dictionaries for Esperant and Gwich'in. 
+Current projects include dictionaries for Esperanto and Gwich'in. Links to dictionaries below:
 
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
