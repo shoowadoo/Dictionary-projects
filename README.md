@@ -1,4 +1,4 @@
-# My Dictionary Projects
+# My Projects
 
 Project currently includes dictionaries for Esperanto and Gwich'in. A dictionary can be accessed online by clicking on its link below. 
 
