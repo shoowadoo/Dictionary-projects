@@ -106,7 +106,7 @@ inputEl.addEventListener("keyup", (e) => {
         //e.target.blur()
         if (window.innerWidth < 768) {
             // Blur the input on mobile devices to hide the keyboard
-            e.target.blur(); // 'this' refers to the input element
+            e.target.blur(); 
         }
     }
 });
