@@ -21,9 +21,10 @@ While you can search using English infinitives in most cases, there will be time
 ### Resources
 
 If you have no idea what Gwich'in sounds like, please check out the following links: 
-[Gwich'in Listening Exercise](https://www.youtube.com/watch?v=QhZmrqUXjnY&t=82s)
 
 [Tǫǫ Oozhrii Zhìt Tsyaa Tsal Dhidii (Boy in the Moon)](https://www.youtube.com/watch?v=XSXBcko8wNQ&t=32s)
+
+[Gwich'in Listening Exercise](https://www.youtube.com/watch?v=QhZmrqUXjnY&t=82s)
 
 Additional materials for learning and exploring more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in Fairbanks.
 
