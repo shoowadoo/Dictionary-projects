@@ -7,7 +7,7 @@ For fun, check out a few words in each language, e.g., 'wear', 'snow', 'sun', 'r
 ## Esperanto
 [Esperanto Dictionary](https://shoowadoo.github.io/Dictionary-projects/esperanto-dictionary/)
 
-Esperanto is fun! :) 
+Esperanto is fun! :)
 
 ## Gwich'in
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
