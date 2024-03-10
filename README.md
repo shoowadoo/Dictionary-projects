@@ -25,5 +25,5 @@ While you can search using English infinitives in most cases, there will be time
 
 Additional materials for learning and exploring more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in Fairbanks.
 
-### Updates: 
+### Updates
 The user can now choose to search for either an English or Gwich'in word. Because there are several different orthographic styles, with the same word marked for tone and/or nasalization in one text and unmarked in another, the user can search for a Gwich'in word with or without special marks or diacritics.
