@@ -14,8 +14,11 @@ Esperanto is fun! :)
 
 Gwich'in is spoken in both Alaska and Canada. This dictionary focuses on Alaskan or Western Gwich'in, also known as [Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
 
-Although not necessary, the Gwich’in dictionary works well with the [Gwich’in keyboard](https://languagegeek.com/lgwp/keyboards/) which can be downloaded and installed on your own machine. Follow instructions for installation and use at that site. 
+Although not necessary, the Gwich’in dictionary works well with the [Gwich’in keyboard](https://languagegeek.com/lgwp/keyboards/) which can be downloaded and installed on your own machine. Follow instructions for installation and use at that site.
 
+While you can search using English infinitives in most cases, there will be times when you don't immediately get a hit, e.g., 'cry.' In this case, you might want to try searching for the word 'crying' or 'cries' or 'cried' instead. This is because Gwich'in verbs must be inflected (i.e., there are no infinitives) and so are listed in dictionary entries in their 3rd person present and/or past tense forms. However, this is not a guarantee, and there are many words still missing from this small dictionary of approximately 3000 words. 
+
+### Resources
 [Gwich'in Listening Exercise](https://www.youtube.com/watch?v=QhZmrqUXjnY&t=82s)
 
 [Tǫǫ Oozhrii Zhìt Tsyaa Tsal Dhidii (Boy in the Moon)](https://www.youtube.com/watch?v=XSXBcko8wNQ&t=32s)
