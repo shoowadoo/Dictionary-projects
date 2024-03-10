@@ -103,6 +103,12 @@ inputEl.addEventListener("keyup", (e) => {
     if (e.target.value && e.key === "Enter") {
         fetchAPI(e.target.value);
         e.target.value = "";
-        e.target.blur()
+        if (window.innerWidth < 768) {
+            // Blur the input on mobile devices to hide the keyboard
+            e.blur(); // 'this' refers to the input element
+        } else {
+            // On desktop, maybe refocus or simply continue editing
+            e.focus(); // Keeps the cursor in the input box
+        }
     }
 });
