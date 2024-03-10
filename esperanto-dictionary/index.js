@@ -15,8 +15,8 @@ async function fetchAPI(word) {
         const url = 'englishToEsperanto.json';
         const result = await fetch(url).then((response) => response.json());
 
-        //const url2 = 'esperantoToEnglish.json';
-        //const result2 = await fetch(url2).then((response) => response.json());
+        const url2 = 'esperantoToEnglish.json';
+        const result2 = await fetch(url2).then((response) => response.json());
 
         word_lower = word.toLowerCase().trim();
         //let pattern = new RegExp(word_lower, "u");
@@ -47,6 +47,28 @@ async function fetchAPI(word) {
             console.log(result[entry])
             new_array.push("\n" + `${entry}: ${result[entry]}`+ "\n");
         }
+
+
+
+
+
+        let my_array2 = [];
+        for (key in result2) {
+
+            //key_normalized = removeDiacritics(key);
+            key_lower = key.toLowerCase();
+            if (pattern.test(key_lower))
+            {
+                my_array2.push(key);
+            }   
+        }
+        console.log(my_array2)
+        let new_array2 = [];
+        //console.log(result)
+        for (entry of my_array2) {
+            console.log(result2[entry])
+            new_array2.push("\n" + `${entry}: ${result2[entry]}`+ "\n");
+        }
         
         //--------------------------------__DISPLAY__--------------------------------
 
@@ -57,7 +79,15 @@ async function fetchAPI(word) {
             titleEl.innerText = word;
             meaningEl.innerText = new_array.join('');
             
-        } else {
+        } else if (new_array2.length > 0) {
+            
+            infoTextEl.style.display = "none";
+            meaningContainerEl.style.display = "block";
+            titleEl.innerText = word;
+            meaningEl.innerText = new_array2.join('');
+            
+        } 
+        else {
             meaningContainerEl.style.display = "block";
             infoTextEl.style.display = "none";
             titleEl.innerText = word;
