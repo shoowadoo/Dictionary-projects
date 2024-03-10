@@ -100,7 +100,11 @@ inputEl.addEventListener("keyup", (e) => {
         performSearch(searchValue);
         console.log("fetched");
         e.target.value = "";
-        e.target.blur()
+        //e.target.blur()
+        if (window.innerWidth < 768) {
+            // Blur the input on mobile devices to hide the keyboard
+            e.target.blur(); // 'this' refers to the input element
+        }
     }
 
 });
