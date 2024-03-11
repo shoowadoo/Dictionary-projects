@@ -24,7 +24,7 @@ When searching for verbs, you can search using English infinitives in most cases
 
 ### Resources
 
-If you have never heard of Gwich'in before, please check out the following links: 
+If you have never heard (of) Gwich'in before, please check out the following links: 
 
 [Tǫǫ Oozhrii Zhìt Tsyaa Tsal Dhidii (Boy in the Moon)](https://www.youtube.com/watch?v=XSXBcko8wNQ&t=32s)
 
