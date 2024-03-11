@@ -11,6 +11,8 @@ Esperanto is fun! :)
 
 The source text for this dictionary is taken from [Project Gutenberg](https://www.gutenberg.org/ebooks/16967) and includes approximately 13,000 entries. 
 
+You can find other resources for learning Esperanto there as well. 
+
 ## Gwich'in
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
 
