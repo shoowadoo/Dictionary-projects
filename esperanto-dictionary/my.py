@@ -27,7 +27,11 @@ for line in lines:
     esperanto_word = parts[1].strip()[:-1]
 
     englishToEsperanto[english_word] = esperanto_word
-    esperantoToEnglish[esperanto_word] = english_word
+    
+    if esperanto_word in esperantoToEnglish:
+        esperantoToEnglish[esperanto_word].append(english_word)
+    else: 
+        esperantoToEnglish[esperanto_word] = [english_word]
 
 # Convert the dictionary to JSON
 json_data = json.dumps(englishToEsperanto, indent=2, ensure_ascii=False)
@@ -36,8 +40,13 @@ json_data = json.dumps(englishToEsperanto, indent=2, ensure_ascii=False)
 with open('englishToEsperanto.json', 'w', encoding='utf-8') as file:
     file.write(json_data)
     
-json_data = json.dumps(esperantoToEnglish, indent=2, ensure_ascii=False)
+json_data = json.dumps(dict(sorted(esperantoToEnglish.items())), indent=2, ensure_ascii=False)
+#json_data = json.dumps(esperantoToEnglish, indent=2, ensure_ascii=False)
 
 # Save the JSON to a file
 with open('esperantoToEnglish.json', 'w', encoding='utf-8') as file:
     file.write(json_data)
+
+print(len(englishToEsperanto))
+print(len(esperantoToEnglish))
+#print(esperantoToEnglish['hundo']) ['dog', 'hound']

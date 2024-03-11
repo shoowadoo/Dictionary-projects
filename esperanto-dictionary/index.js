@@ -67,7 +67,7 @@ async function fetchAPI(word) {
         //console.log(result)
         for (entry of my_array2) {
             console.log(result2[entry])
-            new_array2.push("\n" + `${entry}: ${result2[entry]}`+ "\n");
+            new_array2.push("\n" + `${entry}: ${result2[entry].join(', ')}`+ "\n");
         }
         
         //--------------------------------__DISPLAY__--------------------------------
