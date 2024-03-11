@@ -9,6 +9,8 @@ For fun, check out a few suggested words in each language, e.g., 'wear', 'snow',
 
 Esperanto is fun! :)
 
+The source text for this dictionary is taken from [Project Gutenberg](https://www.gutenberg.org/ebooks/16967) and includes approximately 13,000 entries. 
+
 ## Gwich'in
 [Gwich'in Dictionary](https://shoowadoo.github.io/Dictionary-projects/gwichin-dictionary/)
 
