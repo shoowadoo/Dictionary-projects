@@ -30,7 +30,7 @@ If you have never heard (of) Gwich'in before, please check out the following lin
 
 [Gwich'in Listening Exercise](https://www.youtube.com/watch?v=QhZmrqUXjnY&t=82s)
 
-[Dinjii Zhuh K'yaa](https://www.alaskanativelanguages.org/gwichin).
+[Gwich'in Language](https://en.wikipedia.org/wiki/Gwichʼin_language)
 
 Additional materials for learning and exploring more about Gwich'in can be found in the [Gwich'in Athabaskan Language Collection](https://www.uaf.edu/anla/collections/gwichin/) of the Alaska Native Language Archive in Fairbanks.
 
