@@ -6,15 +6,13 @@ body {
     align-items: center;
     /*background-color: rgb(15,32,75); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg'); /* Replace with the actual URL of the Alaskan flag image */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg');
     
     
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
-
-    
-
+    background-attachment: fixed;
 }
 
 .container {
@@ -49,7 +47,16 @@ body {
 }
 
 .language-select {
-    margin-bottom: 10px; 
+    margin-bottom: 5px; 
+    height: 30px; /* Adjust to desired height */
+    width: 150px; /* Adjust to desired width */
+    font-size: 16px; /* Increase the font size */
+    padding: 5px; /* Add padding for extra space */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounding of corners */
+    background-color: #f9f9f9; /* Optional background color */
+    
+    
 }
 
 .input {
