@@ -4,12 +4,21 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(35,97,146);
+    /*background-color: rgb(15,32,75); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg'); /* Replace with the actual URL of the Alaskan flag image */
+    
+    
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+
+    
+
 }
 
 .container {
-    background-color: rgba(255,255,255,.30);
+    background-color: rgba(255,255,255,.3);
     padding: 28px;
     border-radius: 7px;
     /* 
